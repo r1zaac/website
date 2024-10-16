@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- topnav bar -->
+    <nav
+      id="topnav"
+      class="flex justify-center bg-gradient-to-b from-slate-300 via-slate-100 to-slate-300 via-70% text-red-900 font-semibold"
+    >
+      <div class="flex justify-between space-x-7 py-7 px-5 w-[900px]">
+        <!-- logo and company name  -->
+        <div class="flex">
+          <div class="logo">
+            <svg
+              class="w6 h-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+            >
+              <g data-name="54-Note Book">
+                <path
+                  d="M9 2h18V0H7a4 4 0 0 0-4 4v1H1a2 2 0 0 0 2 2v3H1a2 2 0 0 0 2 2v3H1a2 2 0 0 0 2 2v3H1a2 2 0 0 0 2 2v3H1a2 2 0 0 0 2 2v1a4 4 0 0 0 4 4h15v-2H9zM7 30a2 2 0 0 1-2-2v-1h2zm0-5H5v-3h2zm0-5H5v-3h2zm0-5H5v-3h2zm0-5H5V7h2zm0-5H5V4a2 2 0 0 1 2-2z"
+                />
+                <path
+                  d="M12 6v4a1 1 0 0 0 1 1h9V9h-8V7h9V5H13a1 1 0 0 0-1 1zM12 13h2v2h-2zM16 13h2v2h-2zM30.89 8.55l-2-4a1 1 0 0 0-1.79 0l-2 4A1 1 0 0 0 25 9v22a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V9a1 1 0 0 0-.11-.45zM29 30h-2v-3h2zm0-5h-2V10h2z"
+                />
+              </g>
+            </svg>
+          </div>
+
+          <span>NotePods</span>
+        </div>
+
+        <!-- main menu -->
+        <div class="flex space-x-7">
+          <a href="">Home</a>
+          <a href="">Products</a>
+          <a href="">Services</a>
+          <a href="">Contact</a>
+        </div>
+
+        <!-- login -->
+        <div class="log">Login here</div>
+      </div>
+    </nav>
+
+    <!-- paga bannera and head section -->
+    <section
+      id="pageBanner"
+      class="bg-gray-200 w-full flex justify-center items-end"
+    >
+      <!-- banner Image -->
+      <div
+        style="background-image: url('../assets/man.png')"
+        class="bg-cover size-60 md:size-80 flex-shrink-0"
+      ></div>
+
+      <!-- banner text and button -->
+      <div class="my-5 p-3 max-w-2xl">
+        <h1 class="font-bold text-3xl md:text-5xl">
+          Take notes. Anywhere. Anytime.
+        </h1>
+        <p class="mt-3 text-sm">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+          pariatur nihil tenetur sunt enim exercitationem unde perferendis
+          adipisci fugit nesciunt?
+        </p>
+        <button
+          class="px-4 py-2 border border-red-800 rounded-lg w-full m-3 hover:bg-red-500/30 mt-7 md:mt-14 hover:text-white"
+        >
+          Explore More!
+        </button>
+      </div>
+    </section>
+
+    <!-- mid-content 1 -->
+    <section
+      id="topGridCard"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 md:gap-y-5 justify-items-center m-5"
+    >
+      <!-- card 1 -->
+      <div
+        class="p-4 pb-10 border-b md:border-b-0 rounded rounded-t-2xl md:border-r md:border-slate-200"
+      >
+        <div class="flex justify-center my-5">
+          <img
+            class="size-15 md:size-28"
+            src="/assets/test-tube-svgrepo-com.svg"
+            alt=""
+          />
+        </div>
+        <h3 class="text-xl font-semibold text-center my-2">Heading 1</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          rerum tenetur reiciendis nihil eveniet molestiae expedita error,
+          temporibus inventore ipsa.
+        </p>
+      </div>
+
+      <!-- card 2 -->
+      <div
+        class="p-4 pb-10 border-b md:border-b-0 rounded rounded-t-2xl md:border-r md:border-slate-200"
+      >
+        <div class="flex justify-center my-5">
+          <img
+            class="size-15 md:size-28"
+            src="/assets/capsule-svgrepo-com.svg"
+            alt=""
+          />
+        </div>
+        <h3 class="text-xl font-semibold text-center my-2">Heading 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          rerum tenetur reiciendis nihil eveniet molestiae expedita error,
+          temporibus inventore ipsa.
+        </p>
+      </div>
+
+      <!-- card 3 -->
+      <div
+        class="p-4 pb-10 border-b md:border-b-0 rounded rounded-t-2xl md:border-r md:border-slate-200"
+      >
+        <div class="flex justify-center my-5">
+          <img
+            class="size-15 md:size-28"
+            src="/assets/electrocardiogram-svgrepo-com.svg"
+            alt=""
+          />
+        </div>
+        <h3 class="text-xl font-semibold text-center my-2">Heading 3</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          rerum tenetur reiciendis nihil eveniet molestiae expedita error,
+          temporibus inventore ipsa.
+        </p>
+      </div>
+
+      <!-- card 4 -->
+      <div
+        class="p-4 pb-10 border-b md:border-b-0 rounded rounded-t-2xl md:border-r md:border-slate-200"
+      >
+        <div class="flex justify-center my-5">
+          <img
+            class="size-15 md:size-28"
+            src="/assets/infusion-svgrepo-com.svg"
+            alt=""
+          />
+        </div>
+        <h3 class="text-xl font-semibold text-center my-2">Heading 4</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+          rerum tenetur reiciendis nihil eveniet molestiae expedita error,
+          temporibus inventore ipsa.
+        </p>
+      </div>
+    </section>
+
+    <!-- mid content 2 -->
+    <section>
+      <div
+        style="background-image: url('/assets/notesBG.jpg')"
+        class="relative bg-cover h-[550px] bg-fixed bg-repeat flex items-center justify-center"
+      >
+        <div
+          class="md:top-10 md:right-0 backdrop-blur-md text-white p-7 h-full w-full md:w-[750px] lg:w-[850px]"
+        >
+          <h3 class="font-bold text-2xl my-2">Content Heading 1</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus at
+            est repudiandae, tenetur velit itaque praesentium repellat possimus?
+            Deleniti facilis ducimus magni asperiores inventore, quo quisquam,
+            repellendus doloribus hic reiciendis et esse doloremque est aut
+            harum dolorum sunt sed assumenda, provident eveniet tenetur! Ipsam
+            ad, et facere aut ipsum molestias.
+          </p>
+          <div class="text-right p-5">
+            <button class="bg-red-700 px-5 py-2 rounded hover:bg-red-600">
+              Read More...
+            </button>
+          </div>
+
+          <h3 class="font-bold text-2xl my-2">Content Heading 2</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus at
+            est repudiandae, tenetur velit itaque praesentium repellat possimus?
+            Deleniti facilis ducimus magni asperiores inventore, quo quisquam,
+            repellendus doloribus hic reiciendis et esse doloremque est aut
+            harum dolorum sunt sed assumenda, provident eveniet tenetur! Ipsam
+            ad, et facere aut ipsum molestias.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- cards -->
+    <section class="flex flex-col items-center space-y-20">
+      <!-- title -->
+      <h2 class="text-3xl md:text-5xl font-bold mt-10 text-red-800">
+        Products and Services
+      </h2>
+
+      <!-- cards container -->
+      <div
+        class="flex flex-col md:flex-row justify-center items-center my-14 space-y-10 md:space-y-0 md:space-x-5 px-10 md:px-20"
+      >
+        <!-- card 1 -->
+        <div class="rounded-lg shadow-lg border">
+          <img
+            src="/assets/4k-gaming.jpg"
+            class="bg-cover h-60 w-full"
+            alt=""
+          />
+          <div class="p-3">
+            <h3 class="text-2xl font-semibold">Product 1</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+              eaque maiores nihil voluptates hic officia debitis nostrum
+              nesciunt amet esse?
+            </p>
+
+            <button
+              class="border bg-red-600 hover:bg-red-500 text-white px-4 py-1 rounded-lg mx-5 my-7"
+            >
+              See more
+            </button>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="rounded-lg shadow-lg border">
+          <img
+            src="/assets/4k-ghost-recon-ygs11lxc0q9rozc7.jpg"
+            class="bg-cover h-60 w-full"
+            alt=""
+          />
+          <div class="p-3">
+            <h3 class="text-2xl font-semibold">Product 1</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+              eaque maiores nihil voluptates hic officia debitis nostrum
+              nesciunt amet esse?
+            </p>
+
+            <button
+              class="border bg-red-600 hover:bg-red-500 text-white px-4 py-1 rounded-lg mx-5 my-7"
+            >
+              See more
+            </button>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="rounded-lg shadow-lg border">
+          <img
+            src="/assets/4k-ghost-recon-34tcse7bh9mq7qw1.jpg"
+            class="bg-cover h-60 w-full"
+            alt=""
+          />
+          <div class="p-3">
+            <h3 class="text-2xl font-semibold">Product 1</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+              eaque maiores nihil voluptates hic officia debitis nostrum
+              nesciunt amet esse?
+            </p>
+
+            <button
+              class="border bg-red-600 hover:bg-red-500 text-white px-4 py-1 rounded-lg mx-5 my-7"
+            >
+              See more
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="flex flex-col justify-center items-center my-20">
+      <!-- heading -->
+      <h2 class="text-4xl md:text-5xl font-bold text-red-800">Testimonials</h2>
+
+      <!-- testimonials container -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 items-end">
+        <!-- testimonial 1 -->
+        <div class="p-3 mx-3">
+          <!-- comment -->
+          <div
+            class="relative rounded-lg shadow-xl p-3 border mb-b bg-gray-600 text-white"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+            distinctio, amet provident magni doloremque suscipit sequi magnam
+            est sint quisquam reiciendis, nihil quis ullam dignissimos, debitis
+            hic fugit recusandae....
+            <button
+              class="bg-red-500 rounded text-white border hover:bg-red-400 mt-2 px-2"
+            >
+              Read more
+            </button>
+
+            <div class="absolute">
+              <svg
+                class="size-6 fill-gray-600"
+                width="100"
+                heigh="100"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+                class="triangle"
+              >
+                <polygon points="50,85 90,15 10,15" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- avatar profile -->
+          <div class="flex items-center mt-2 space-x-2">
+            <img
+              class="size-20 rounded-full"
+              src="/assets/YbKhQrGQY2nJXVX_1712121324.png"
+              alt=""
+            />
+            <div class="text-slate-800">
+              <h5 class="font-bold">Edwards Ramsbottom</h5>
+              <p>CEO</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- testimonial 2 -->
+        <div class="p-3 mx-3">
+          <!-- comment -->
+          <div
+            class="relative rounded-lg shadow-xl p-3 border mb-b bg-gray-600 text-white"
+          >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia,
+            quis a quo ab nihil saepe rerum odio magni nesciunt nam minima
+            aspernatur dicta non ea aliquid suscipit ullam ducimus quia. Cumque,
+            cum earum delectus quibusdam qui atque, voluptate maxime vero
+            excepturi, unde suscipit. Voluptatibus quisquam fugit aliquam
+            deserunt corporis ipsum?
+            <button
+              class="bg-red-500 rounded text-white border hover:bg-red-400 mt-2 px-2"
+            >
+              Read more
+            </button>
+
+            <div class="absolute">
+              <svg
+                class="size-6 fill-gray-600"
+                width="100"
+                heigh="100"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+                class="triangle"
+              >
+                <polygon points="50,85 90,15 10,15" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- avatar profile -->
+          <div class="flex items-center mt-2 space-x-2">
+            <img
+              class="size-20 rounded-full"
+              src="/assets/dSwbAmVLo4MuUIw_1712121162.png"
+              alt=""
+            />
+            <div class="text-slate-800">
+              <h5 class="font-bold">Ellie Cruise</h5>
+              <p>CTO</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- testimonial 3 -->
+        <div class="p-3 mx-3">
+          <!-- comment -->
+          <div
+            class="relative rounded-lg shadow-xl p-3 border mb-b bg-gray-600 text-white"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
+            enim!
+            <button
+              class="bg-red-500 rounded text-white border hover:bg-red-400 mt-2 px-2"
+            >
+              Read more
+            </button>
+
+            <div class="absolute">
+              <svg
+                class="size-6 fill-gray-600"
+                width="100"
+                heigh="100"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+                class="triangle"
+              >
+                <polygon points="50,85 90,15 10,15" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- avatar profile -->
+          <div class="flex items-center mt-2 space-x-2">
+            <img
+              class="size-20 rounded-full"
+              src="/assets/pCZ8dhuqSvKgCHi_1712121436.png"
+              alt=""
+            />
+            <div class="text-slate-800">
+              <h5 class="font-bold">Sofia Blake</h5>
+              <p>CFO</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- testimonial 4 -->
+        <div class="p-3 mx-3">
+          <!-- comment -->
+          <div
+            class="relative rounded-lg shadow-xl p-3 border mb-b bg-gray-600 text-white"
+          >
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex dolorem
+            autem magnam numquam minima repudiandae!
+            <button
+              class="bg-red-500 rounded text-white border hover:bg-red-400 mt-2 px-2"
+            >
+              Read more
+            </button>
+
+            <div class="absolute">
+              <svg
+                class="size-6 fill-gray-600"
+                width="100"
+                heigh="100"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+                class="triangle"
+              >
+                <polygon points="50,85 90,15 10,15" />
+              </svg>
+            </div>
+          </div>
+
+          <!-- avatar profile -->
+          <div class="flex items-center mt-2 space-x-2">
+            <img
+              class="size-20 rounded-full"
+              src="/assets/ai-generated-7833751_640.webp"
+              alt=""
+            />
+            <div class="text-slate-800">
+              <h5 class="font-bold">Christopher Juan</h5>
+              <p>Managing Director</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer
+      style="background-image: url('/assets/calm-lake-white-clouds.jpg')"
+      class="bg-white border-t"
+    >
+      <div>
+        <section
+          class="flex flex-col lg:flex-row lg:justify-between p-5 space-y-5"
+        >
+          <!-- products list -->
+          <div class="w-3/5">
+            <h3 class="text-xl font-bold uppercases mt-5">NotePods</h3>
+            <p class="mt-4 leading-loose text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque,
+              porro hic adipisci aliquid aut eveniet eos impedit fugit obcaecati
+              autem? Fuga laborum nisi totam odio ipsum fugiat repellat
+              perferendis commodi est. Nihil delectus quibusdam
+            </p>
+          </div>
+
+          <!-- footer List menu -->
+          <div
+            class="flex flex-col md:flex-row md:justify-between space-y-10 md:space-y-0 md:flex-grow"
+          >
+            <ul class="text-sm space-y-4">
+              <h3 class="font-bold uppercase">company</h3>
+              <li>About</li>
+              <li>Features</li>
+              <li>Work</li>
+              <li>Careers</li>
+            </ul>
+
+            <ul class="text-sm space-y-4">
+              <h3 class="font-bold uppercase">Help</h3>
+              <li>Customer Support</li>
+              <li>Delivey Details</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+
+            <ul class="text-sm space-y-4">
+              <h3 class="font-bold uppercase">Resources</h3>
+              <li>Free eBooks</li>
+              <li>Development Tutorial</li>
+              <li>How to - Blog</li>
+              <li>Youtube Playlist</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <section>
+        <div class="border my-5 w-11/12 mx-auto"></div>
+        <div
+          class="flex flex-col md:flex-row md:justify-between md:items-center p-3 space-y-4 md:space-y-0"
+        >
+          <div>© Copyright 2024. All Rights Reserved.</div>
+          <img
+            src="https://cdn.rareblocks.xyz/collection/clarity-ecommerce/images/footer/1/payment-methods.png"
+            alt=""
+            class="w-72"
+          />
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
